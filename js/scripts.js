@@ -80,6 +80,8 @@ search.addEventListener("click", () => {
 navigator.geolocation.getCurrentPosition((position) => {
     const currentLatitude = position.coords.latitude;
     const currentLongitude = position.coords.longitude;
+
+    window.alert(currentLatitude,currentLongitude)
     getInicialData(currentLatitude, currentLongitude)
 })
 
