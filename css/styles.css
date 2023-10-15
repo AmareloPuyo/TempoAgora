@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #969ef1, #c7dbf1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    text-align: center;
+    line-height: 4rem;
+    background-color: #E3D3C4;
+    color: #67151B;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px #67151B;
+}
+
+.form-input-container {
+    border-bottom: 1px solid #67151B;
+    padding-bottom: 20px;
+}
+
+.form-input-container input {
+    height: 2rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #ECECEC;
+}
+
+.form-input-container button {
+    height: 2rem;
+    width: 2.5rem;
+    background-color: #E8AA9B;
+    color: #fdfdfd;
+    border-radius: 5px;
+    border: none;
+}
+
+.weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#country {
+    height: 2rem
+}
+
+#weather-icon {
+    height: 3rem;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    line-height: 2rem;
+    margin: 10px;
+    width: 100%;
+}
+
+.umidity,
+.wind {
+    width: 50%;
+}
+
+.umidity {
+    border-right: 1px solid #67151B;
+}
+
+#temperature {
+    font-size: 3em;
+}
+
+.fa-solid.fa-arrow-down {
+    color: blue;
+}
+
+.fa-solid.fa-arrow-up {
+    color: red;
+}
+
+.fa-solid.fa-location-dot {
+    color: #67151B;
+}
+
+#weather-icon {
+    color: #67151B;
+}
+#description{
+    display: flex;
+    align-items: center;
+}
